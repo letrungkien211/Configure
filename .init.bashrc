@@ -85,8 +85,6 @@ sudo apt-get install -y alacarte
 sudo apt-get install -y guake
 ### Cheese 
 sudo apt-get install -y cheese
-### Dropbox
-sudo apt-get install -y nautilus-dropbox
 ### Ubunt Tweak
     sudo add-apt-repository ppa:tualatrix/ppa -y
     sudo apt-get update
