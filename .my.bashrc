@@ -42,6 +42,7 @@ alias 6='cd ~/Dropbox/6Semester/'
 ##################################################
 ## Git Alias
 alias gs='git status '
+alias gh='git hist'
 alias ga='git add '
 alias gb='git branch '
 alias gc='git commit'
@@ -50,6 +51,8 @@ alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 alias gm='git checkout master'
+
+export GITREMOTE=https://letrungkien211@github.com/letrungkien211
 
 ###################################################
 # 32-64 bit work space
