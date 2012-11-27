@@ -82,3 +82,5 @@
 ;;; 
 ;;; 
 (require 'ibus)
+
+(global-linum-mode t)
