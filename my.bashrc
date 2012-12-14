@@ -24,10 +24,7 @@ alias editinit='e $GITDIR/Configure.init.bashrc'
 alias eclipse='eclipse &'
 alias easytether='easytether connect'
 alias ..='cd ..'
-alias gcvcv='gcc -o $1 $1.c `pkg-config --cflags --libs opencv`'
-alias g++cv='g++ -o $1 $1.cpp `pkg-config --cflags --libs opencv`'
-alias ggl='gcc -o $1 $1.c -lglut -lGL -lGLU'
-alias g++gl='g++ -o $1 $1.cpp -lglut -lGL -lGLU'
+alias quit='exit'
 alias logout='gnome-session-quit'
 alias hidepwd='export PS1="$: "'
 alias unhidepwd='export PS1="\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "'
@@ -57,10 +54,11 @@ export GITREMOTE=https://letrungkien211@github.com/letrungkien211
 ###################################################
 # 32-64 bit work space
 if (uname -m | grep '64'); then
-    export WORK3264=64-bit
+    arch
 else
-    export WORK3264=32-bit
+    arch
 fi
+
 # PATH
 export PATH=$PATH:/home/letrungkien7/Program/eclipse/
 # CLASSPATH
