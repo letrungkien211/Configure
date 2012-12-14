@@ -30,4 +30,8 @@ function rossetpr2() {
     rossetrobot 10.68.0.1
     rossetip
 }
+function rossetpr2wired() {
+    rossetrobot pr1012
+    rossetip
+}
 ###################################################

@@ -16,10 +16,10 @@ alias e='emacs -nw'
 alias c='clear'
 alias m='make'
 alias mc='make clean'
-alias sourcebash='source ~/.bashrc'
+alias sourcebash='source /home/letrungkien7/.bashrc'
 alias editbash='e $GITDIR/Configure/my.bashrc'
 alias editschedule='e $GITDIR/Configure/schedule.txt'
-alias editemacs='e ~/.emacs'
+alias editemacs='e /home/letrungkien7/.emacs'
 alias editinit='e $GITDIR/Configure.init.bashrc'
 alias eclipse='eclipse &'
 alias easytether='easytether connect'
@@ -33,11 +33,11 @@ alias hidepwd='export PS1="$: "'
 alias unhidepwd='export PS1="\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "'
 PS1='\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 ##################################################
-alias 1='cd ~/Dropbox/git/'
-alias 2='cd ~/Downloads/'
-alias 3='cd ~/Dropbox/'
-alias 4='cd ~/Dropbox/Ubuntu/'
-alias 6='cd ~/Dropbox/6Semester/'
+alias 1='cd /home/letrungkien7/Dropbox/git/'
+alias 2='cd /home/letrungkien7/Downloads/'
+alias 3='cd /home/letrungkien7/Dropbox/'
+alias 4='cd /home/letrungkien7/Dropbox/Ubuntu/'
+alias 6='cd /home/letrungkien7/Dropbox/6Semester/'
 
 ##################################################
 ## Git Alias
@@ -62,7 +62,7 @@ else
     export WORK3264=32-bit
 fi
 # PATH
-export PATH=$PATH:~/Program/eclipse/
+export PATH=$PATH:/home/letrungkien7/Program/eclipse/
 # CLASSPATH
 export CLASSPATH=$CLASSPATH
 # LDCONFIG
