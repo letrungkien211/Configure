@@ -1,4 +1,3 @@
-###################################################
 ### ROS
 export ROS_WORKSPACE=~/ros/fuerte/
 #source ~/ros/fuerte/setup.sh
@@ -34,4 +33,3 @@ function rossetpr2wired() {
     rossetrobot pr1012
     rossetip
 }
-###################################################
