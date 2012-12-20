@@ -72,12 +72,9 @@
 (setq auto-mode-alist (cons '("\\.m$" . octave-mode) auto-mode-alist))
 
 ;;; 
-;;; 
-(require 'ibus)
-(add-hook 'after-init-hook 'ibus-mode-on)
+;;; Autocomplete
 (add-to-list 'load-path "~/.emacs.d/company")
 (autoload 'company-mode "company" nil t)
-
 (require 'gccsense)
 (require 'semantic/bovine/gcc)
 
