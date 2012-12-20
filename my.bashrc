@@ -1,9 +1,17 @@
 ##################################################
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
 # system command alias
 alias shutdown='sudo shutdown -h now'
 alias reboot='sudo reboot'
 alias update='sudo apt-get update'
-alias upgrade='sudo apt-get dist-upgrade'
+alias upgrade='sudo apt-get update && sudo apt-get dist-upgrade -y'
 alias autoremove='sudo apt-get autoremove'
 alias autoclean='sudo apt-get autoclean'
 
@@ -52,17 +60,8 @@ alias gm='git checkout master'
 export GITREMOTE=https://letrungkien211@github.com/letrungkien211
 
 ###################################################
-# 32-64 bit work space
-if (uname -m | grep '64'); then
-    arch
-else
-    arch
-fi
-
 # PATH
 export PATH=$PATH:/home/letrungkien7/Program/eclipse/
-# CLASSPATH
-export CLASSPATH=$CLASSPATH
 # LDCONFIG
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 # PKGCONFIG

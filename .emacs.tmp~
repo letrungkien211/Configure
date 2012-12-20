@@ -40,6 +40,7 @@
 ;;; Csharp mode
 (require 'csharp-mode)
 
+
 ;;; 
 ;;; Latex 
 (add-to-list 'load-path "~/.emacs.d/auctex")
@@ -57,9 +58,6 @@
 ;; load predictive package
 (require 'predictive)
 
-
-;; C style
-;;
 (setq c-default-style "linux"
       c-basic-offset 4)
 (put 'set-goal-column 'disabled nil)
@@ -68,26 +66,21 @@
 ;;; File Extention
 (setq auto-mode-alist (cons '("\\.pde$" . java-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.h$" . c++-mode) auto-mode-alist))
-(setq auto-mode-alist (cons '("\\.bashrc$" . shell-script-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.basrhc$" . shell-script-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.m$" . octave-mode) auto-mode-alist))
 
+
+;;; Slime
+;;;
+(add-to-list 'load-path "/the/path/to/slime")
+(require 'slime)
+(add-hook 'lisp-mode-hook (lambda () (slime-mode t)))
+(add-hook 'inferior-lisp-mode-hook (lambda () (inferior-slime-mode t)))
+
+
 ;;; 
 ;;; 
-(require 'ibus)
-(add-hook 'after-init-hook 'ibus-mode-on)
-(add-to-list 'load-path "~/.emacs.d/company")
-(autoload 'company-mode "company" nil t)
-
-(require 'gccsense)
-(require 'semantic/bovine/gcc)
-
-(add-hook 'c-mode-common-hook
-          (lambda ()
-            (local-set-key (kbd "\C-[") 'ac-complete-gccsense)))
-(global-set-key "\C-cs" 'dictionary-search)
-(global-set-key "\C-ca" 'align-current)
-
-;; ibus-mode
+;;日本語ファイル名とディレクトリ名の使用
 (require 'ibus)
 ;; Turn on ibus-mode automatically after loading .emacs
 (add-hook 'after-init-hook 'ibus-mode-on)
@@ -96,7 +89,7 @@
 ;; Use C-/ for Undo command
 (ibus-define-common-key ?\C-/ nil)
 ;; Change cursor color depending on IBus status
-(setq ibus-cursor-color '("limegreen" "white" "blue"))
+(setq ibus-cursor-color '("red" "blue" "limegreen"))
+(add-hook 'Latex-mode-hook 'predictive-mode)
 
 (global-set-key "\C-cj" 'auto-complete-mode)
-(global-set-key "\C-ck" 'compile)
