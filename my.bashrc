@@ -17,6 +17,7 @@ alias autoclean='sudo apt-get autoclean'
 
 ##################################################
 # application command alias
+alias emacs='emacs23'
 alias h='history'
 alias pdfmerge='gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=finished.pdf'
 alias open='xdg-open'

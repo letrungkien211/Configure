@@ -3,7 +3,7 @@
 ### Cmake
 sudo apt-get install -y cmake git 
 ### Emacs
-sudo apt-get install -y emacs23 gtk2-engines-pixbuf auctex
+sudo apt-get install -y emacs23 gtk2-engines-pixbuf
 ### OpenGL
 sudo apt-get install -y mesa-common-dev freeglut3-dev mesa-utils mesa-utils-extra
 ### OpenCV
