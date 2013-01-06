@@ -68,6 +68,3 @@ export PATH=$PATH:/home/letrungkien7/Program/eclipse/
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 # PKGCONFIG
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig
-
-echo "Do report right away!"
-echo "Deadline: 12/31"

@@ -1,0 +1,17 @@
+[user]
+	name = letrungkien211
+	email = letrungkien211@gmail.com
+[core]
+	autocrlf = false
+	safecrlf = true
+	editor = emacs -nw
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+[diff]
+	tool = ediff
