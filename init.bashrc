@@ -7,7 +7,7 @@ sudo apt-get install -y emacs23 gtk2-engines-pixbuf auctex
 ### OpenGL
 sudo apt-get install -y mesa-common-dev freeglut3-dev mesa-utils mesa-utils-extra
 ### OpenCV
-sudo apt-get install -y libopencv* 
+sudo apt-get install -y libopencv*
 ### Build Essential
 sudo apt-get install -y build-essential debian-keyring g++-multilib g++-4.6-multilib gcc-4.6-doc libstdc++6-4.6-dbg libstdc++6-4.6-doc diffutils-doc
 ### Java
@@ -23,7 +23,7 @@ sudo apt-get install -y octave3.2
 
 ###############################################
 ### Media
-sudo apt-get install -y vlc clementine gtk-recordmydesktop 
+nsudo apt-get install -y vlc clementine gtk-recordmydesktop 
 ### Gimp
 sudo apt-get install -y gimp
 ### Virtual box
@@ -37,6 +37,11 @@ sudo apt-get remove -y totem ubuntuone*
 sudo apt-get install -y libdvdread4
 /usr/share/doc/libdvdread4/install-css.sh
 
+### SQL
+sudo apt-get install -y sqlite3 mysql*
+
+### SSH
+sudo apt-get install -y openssh-*
 
 ##############################################
 ### Language Pack
@@ -73,6 +78,10 @@ sudo apt-get install -y ubuntu-tweak
 
 ### Radeon catalyst
 sudo apt-get install fglrx fglrx-amdcccle -y
+
+### Emacs keybinding
+gsettings set org.gnome.desktop.interface gtk-key-theme "Emacs"
+
 
 ### To make system recognize more than 3GB ram
 #    sudo apt-get install linux-generic-pae linux-headers-generic-pae -y
