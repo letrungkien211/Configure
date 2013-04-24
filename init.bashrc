@@ -77,7 +77,7 @@ sudo apt-get update
 sudo apt-get install -y ubuntu-tweak
 
 ### Radeon catalyst
-sudo apt-get install fglrx fglrx-amdcccle -y
+#sudo apt-get install fglrx fglrx-amdcccle -y
 
 ### Emacs keybinding
 gsettings set org.gnome.desktop.interface gtk-key-theme "Emacs"
