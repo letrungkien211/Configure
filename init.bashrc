@@ -20,6 +20,9 @@ sudo apt-get install -y liblapack-dev libblas-dev libalut-dev libarmadillo2 liba
 sudo apt-get install -y qt4-qtconfig qt4-designer qtcreator
 ### Octave
 sudo apt-get install -y octave3.2
+### Python
+sudo apt-get install python-dev python-matplotlib
+
 
 ###############################################
 ### Media
@@ -32,7 +35,7 @@ sudo apt-get install -y virtualbox-qt
 #    sudo apt-get install -y wine
 ### Remove totem
 sudo apt-get remove -y totem ubuntuone* 
-
+sudo apt-get install flashplugin-installer -y
 ### DVD players
 sudo apt-get install -y libdvdread4
 /usr/share/doc/libdvdread4/install-css.sh
@@ -89,4 +92,5 @@ gsettings set org.gnome.desktop.interface gtk-key-theme "Emacs"
 #    sudo apt-get add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
 #    sudo apt-get update
 #    sudo apt-get install libpcl-all
-sudo apt-get install flashplugin-installer -y
+
+
