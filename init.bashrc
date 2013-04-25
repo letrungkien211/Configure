@@ -89,3 +89,4 @@ gsettings set org.gnome.desktop.interface gtk-key-theme "Emacs"
 #    sudo apt-get add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl
 #    sudo apt-get update
 #    sudo apt-get install libpcl-all
+sudo apt-get install flashplugin-installer -y
