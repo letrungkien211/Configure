@@ -26,7 +26,7 @@ sudo apt-get install python-dev python-matplotlib
 
 ###############################################
 ### Media
-nsudo apt-get install -y vlc clementine gtk-recordmydesktop 
+sudo apt-get install -y vlc clementine gtk-recordmydesktop 
 ### Gimp
 sudo apt-get install -y gimp
 ### Virtual box
