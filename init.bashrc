@@ -21,7 +21,7 @@ sudo apt-get install -y qt4-qtconfig qt4-designer qtcreator
 ### Octave
 sudo apt-get install -y octave3.2
 ### Python
-sudo apt-get install python-dev python-matplotlib
+sudo apt-get install python-dev python-matplotlib python-beautifulsoup python-pysqlite2
 
 
 ###############################################
