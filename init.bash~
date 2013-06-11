@@ -1,4 +1,3 @@
-
 ###############################################
 ### Cmake
 sudo apt-get install -y cmake git 
@@ -14,7 +13,7 @@ sudo apt-get install -y build-essential debian-keyring g++-multilib g++-4.6-mult
 sudo apt-get install -y javacc openjdk-7-jre libvecmath-java openjdk-7-jdk openjdk-6-jdk default-jdk
 ### 32bit libs
 sudo apt-get install -y ia32-libs
-### Library  
+### Lbrary  
 sudo apt-get install -y liblapack-dev libblas-dev libalut-dev libarmadillo2 libarmadillo-dev libeigen3-doc libeigen3-dev 
 ### QT+
 sudo apt-get install -y qt4-qtconfig qt4-designer qtcreator
@@ -52,7 +51,7 @@ sudo apt-get install -y language-pack-vi language-pack-vi-base language-pack-ja 
 ### Font
 sudo apt-get install -y poppler-data
 ### Ibus
-sudo sudo apt-get install -y ibus-anthy ibus-unikey ibus-el ibus-mozc
+sudo apt-get install -y ibus-unikey ibus-el ibus-mozc
 ### Dictionary
 sudo apt-get install -y goldendict gwaei
 ### Adobe reader
