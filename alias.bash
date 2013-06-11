@@ -41,7 +41,7 @@ alias quit='exit'
 alias logout='gnome-session-quit'
 alias hidepwd='export PS1="$: "'
 alias unhidepwd='export PS1="\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "'
-PS1='\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+#PS1='\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 ##################################################
 alias 1='cd /home/letrungkien7/Dropbox/git/Codejam/1round'
 alias 2='cd /home/letrungkien7/Downloads/'
