@@ -20,7 +20,9 @@ sudo apt-get install -y qt4-qtconfig qt4-designer qtcreator
 ### Octave
 sudo apt-get install -y octave
 ### Python
-sudo apt-get install python-dev python-matplotlib python-beautifulsoup python-pysqlite2
+sudo apt-get install python-dev python-matplotlib python-beautifulsoup python-pysqlite2 python-nltk
+sudo apt-get install python-pip python-numpy
+sudo pip install -U sentiment_classifier 
 
 
 ###############################################
@@ -47,7 +49,7 @@ sudo apt-get install -y openssh-*
 
 ##############################################
 ### Language Pack
-sudo apt-get install -y language-pack-vi language-pack-vi-base language-pack-ja language-pack-ja-bases
+sudo apt-get install -y language-pack-vi language-pack-vi-base language-pack-ja language-pack-ja-base
 ### Font
 sudo apt-get install -y poppler-data
 ### Ibus
@@ -92,21 +94,3 @@ gsettings set org.gnome.desktop.interface gtk-key-theme "Emacs"
 #    sudo apt-get update
 #    sudo apt-get install libpcl-all
 
-### Emacs
-if emacsInstall=1:
-    unzip auto-complete-1.3.1.zip
-    cd auto-complete-1.3.1
-    make install DIR=$HOME/.emacs.d/
-    cd ..
-    rm -rf auto-complete-1.3.1
-
-    tar -xzvf predictive.tar.gz
-    cd predictive
-    sudo make install
-    cd ..
-    rm -rf predictive
-    cp csharp-mode.el ~/.emacs.d/
-
-    cp .gitconfig ~/
-fi    
-emacsInstall=0
