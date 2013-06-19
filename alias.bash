@@ -62,3 +62,8 @@ alias go='git checkout '
 alias gk='gitk --all&'
 alias gx='gitx --all'
 alias gm='git checkout master'
+
+#################################################
+## Server alias
+alias persian='ssh letrungkien@persian'
+alias electrode='ssh letrungkien@electrode'
