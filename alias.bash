@@ -66,3 +66,4 @@ alias gm='git checkout master'
 ## Server alias
 alias persian='ssh letrungkien@persian'
 alias electrode='ssh letrungkien@electrode'
+alias asari='ssh -p 53310 letrungkien@157.82.14.3'
