@@ -2,27 +2,27 @@
 ### Cmake
 sudo apt-get install -y cmake git 
 ### Emacs
-sudo apt-get install -y emacs23 gtk2-engines-pixbuf auctex
+#sudo apt-get install -y emacs23 gtk2-engines-pixbuf auctex
 ### OpenGL
-sudo apt-get install -y mesa-common-dev freeglut3-dev mesa-utils mesa-utils-extra
+#sudo apt-get install -y mesa-common-dev freeglut3-dev mesa-utils mesa-utils-extra
 ### OpenCV
-sudo apt-get install -y libopencv*
+#sudo apt-get install -y libopencv*
 ### Build Essential
 sudo apt-get install -y build-essential debian-keyring g++-multilib g++-4.6-multilib gcc-4.6-doc libstdc++6-4.6-dbg libstdc++6-4.6-doc diffutils-doc
 ### Java
 sudo apt-get install -y javacc openjdk-7-jre libvecmath-java openjdk-7-jdk openjdk-6-jdk default-jdk
 ### 32bit libs
-sudo apt-get install -y ia32-libs
+#sudo apt-get install -y ia32-libs
 ### Lbrary  
 sudo apt-get install -y liblapack-dev libblas-dev libalut-dev libarmadillo2 libarmadillo-dev libeigen3-doc libeigen3-dev 
 ### QT+
-sudo apt-get install -y qt4-qtconfig qt4-designer qtcreator
+#sudo apt-get install -y qt4-qtconfig qt4-designer qtcreator
 ### Octave
 sudo apt-get install -y octave
 ### Python
-sudo apt-get install python-dev python-matplotlib python-beautifulsoup python-pysqlite2 python-nltk
-sudo apt-get install python-pip python-numpy
-sudo pip install -U sentiment_classifier 
+sudo apt-get install -y python-dev python-matplotlib python-beautifulsoup python-pysqlite2 python-nltk
+sudo apt-get install -y python-pip python-numpy
+#sudo pip install -U sentiment_classifier 
 
 
 ###############################################
@@ -42,7 +42,7 @@ sudo apt-get install -y libdvdread4
 /usr/share/doc/libdvdread4/install-css.sh
 
 ### SQL
-sudo apt-get install -y sqlite3 mysql*
+#sudo apt-get install -y sqlite3 mysql*
 
 ### SSH
 sudo apt-get install -y openssh-*
