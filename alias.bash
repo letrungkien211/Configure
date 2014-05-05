@@ -36,10 +36,10 @@ alias easytether='easytether connect'
 alias ..='cd ..'
 alias quit='exit'
 alias logout='gnome-session-quit'
-alias hidepwd='export PS1="$ t-trule $ "'
-alias unhidepwd='export PS1="\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "'
+#alias hidepwd='export PS1="$ t-trule $ "'
+#alias unhidepwd='export PS1="\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "'
 alias exportcurrentpath='export PATH=$PATH:.'
-#PS1='\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+PS1='\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 
 ##################################################
 ## Git Alias
@@ -54,15 +54,3 @@ alias gk='gitk --all&'
 alias gx='gitx --all'
 alias gm='git checkout master'
 
-#################################################
-## Server alias
-alias persian='ssh letrungkien@persian'
-alias electrode='ssh letrungkien@electrode'
-alias asari='ssh -p 53310 letrungkien@157.82.14.3'
-alias levm='ssh letrungkien@levm'
-alias fouquet='ssh letrungkien@fouquet'
-alias ditto='ssh letrungkien@ditto'
-alias koeda='ssh letrungkien@koeda'
-alias simba='ssh letrungkien@simba'
-alias abu='ssh letrungkien@abu'
-alias amenouo='rdesktop amenouo -u guest -f'

@@ -59,7 +59,7 @@ sudo apt-get install -y goldendict gwaei
 ### Adobe reader
 sudo apt-get install -y acroread
 ### Latex
-sudo apt-get install -y texlive-full texmaker
+sudo apt-get install -y texlive-full texmaker okumura-clsfiles
 ### Gnome
 sudo apt-get install -y gnome-system-tools
 ### Terminator
