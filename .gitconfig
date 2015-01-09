@@ -3,7 +3,6 @@
 	email = letrungkien211@gmail.com
 [core]
 	autocrlf = false
-	safecrlf = true
 	editor = emacs -nw
 [alias]
 	co = checkout
@@ -15,3 +14,5 @@
 	dump = cat-file -p
 [diff]
 	tool = ediff
+[color]
+	diff=true
