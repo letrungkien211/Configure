@@ -15,4 +15,4 @@
 [diff]
 	tool = ediff
 [color]
-	diff=true
+	ui = auto
