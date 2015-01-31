@@ -16,3 +16,5 @@
 	tool = ediff
 [color]
 	ui = auto
+[credential]
+	helper = store
