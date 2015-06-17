@@ -2,8 +2,9 @@
 	name = letrungkien211
 	email = letrungkien211@gmail.com
 [core]
-	autocrlf = true
+	autocrlf = false
 	editor = emacs -nw
+	eol = lf
 [alias]
 	co = checkout
 	ci = commit
