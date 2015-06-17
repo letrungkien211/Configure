@@ -36,10 +36,8 @@ alias easytether='easytether connect'
 alias ..='cd ..'
 alias quit='exit'
 alias logout='gnome-session-quit'
-#alias hidepwd='export PS1="$ t-trule $ "'
-#alias unhidepwd='export PS1="\[\033[01;32m\]@\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "'
-alias exportcurrentpath='export PATH=$PATH:.'
-PS1='\[\033[01;32m\]\u@\[\033[00m\]\h:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
+PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
 
 ##################################################
 ## Git Alias
